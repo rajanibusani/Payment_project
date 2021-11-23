@@ -9,7 +9,7 @@ If the server requested authentication fails,please use these commands to modify
 
 ## Installation
 
-#### Insatll Dependencies: 
+#### Install Dependencies: 
 ```bash
 $ npm install
 ```
@@ -17,7 +17,7 @@ $ npm install
 ```bash
 $ npm start
 ```
-#### To Check the end points response, I used postman.
+#### To Check the end points responses, I used Postman.
 Below is my link to postman collections, which you can import and check the responses of end points.
 
 [Payment Project POSTMAN Collection](https://www.getpostman.com/collections/c88878facc097f3a2b26)
@@ -34,7 +34,7 @@ Ans: I would like to use MongoDB instead of MySql, to handle the increasing volu
 I would like choose the tech stack of express.js, MongoDB and also would like to use services like mongoose library which makes working with MongoDB easier and also has built in validation.
 
 
-2.1 Would the chosen options change the architecture of the code written for this task? If so, explain briefly what would change.
+  2.1 Would the chosen options change the architecture of the code written for this task? If so, explain briefly what would change.
 
 Ans: If I choose mongoose instead of MySql (knex.js), I have to install and import the mongoose into app.js file, and to set up the database connection, I have to call mongoose.connect with connection string.
 
