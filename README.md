@@ -20,7 +20,7 @@ $ npm start
 #### To Check the end points responses, I used Postman.
 Below is my link to postman collections, which you can import and check the responses of end points.
 
-[Payment Project POSTMAN Collection](https://www.getpostman.com/collections/c88878facc097f3a2b26)
+[Payment Project POSTMAN Collection](https://www.getpostman.com/collections/8800fce81eef0dce652e)
 
 ### 🤔 Questions
 
