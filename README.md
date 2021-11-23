@@ -2,10 +2,9 @@
 Tech stack includes Typescript, Node.js, Express.js framework, Knex.js(Sql query builder)
 
 #### MYSQL database Access
-If the server requested authentication fails use these commands to modify the current root password in sql workbench.
+If the server requested authentication fails,please use these commands to modify the current root password in sql workbench.
 
-```ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-flush privileges;```
+```ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';flush privileges;```
 
 
 ## Installation
