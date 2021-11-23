@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app: Application = express();
 
-//MySql config
+// Mysql database connection 
 const config = {
     client: "mysql",
     connection: {
@@ -24,8 +24,9 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 8000;
 
+// routes
 app.get("/", (req: Request, res: Response): void => {
-  res.send("Server Running");
+  res.send("Payment Project Server Running");
 });
 
 //creating a payment_note and updating transaction and payment_note tables
